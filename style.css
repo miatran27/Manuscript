@@ -1,2 +1,55 @@
-body {
-    color: red;}
+/*This is the general front for the whole page */
+:root { font-family: 'National Park', serif; 
+font-weight: 300;}
+
+/*This is a way I learned to add space to separate the paragraphs*/
+p {
+  margin: 0 0 20px 0;  /* top right bottom left */
+}
+
+/*Note for Mia: The code below means all "h1" headings will be in font Limelight, each h1 is separated into three sections, and each section or "title" has a different color*/
+h1{
+    font-family: "Limelight", sans-serif;
+    font-size:800%;
+}
+        .sectionone {color: red;}
+
+        .sectiontwo{color:blue}
+
+        .sectionthree{color:purple}
+
+/*Author's name */
+.author {color:green; font-weight: bold; font-size: 150%;}
+
+/*Coloured Titles */
+
+.black{color:black; font-weight:bold; font-size: 130%}
+.white{color:grey; font-weight:bold; font-size: 130%}
+.yellow{color:#F2E718; font-weight:bold; font-size: 130%}
+.green{color:green; font-weight:bold; font-size: 130%}
+.blue{color:blue; font-weight:bold; font-size: 130%}
+.red{color:red; font-weight:bold; font-size: 130%}
+
+/*Coloured Paragraphs */
+.paragraphblack{color:black}
+.paragraphwhite{color:grey}
+.paragraphyellow{color:#F2E718}
+.paragraphgreen{color:green}
+.paragraphblue{color:blue}
+.paragraphred{color:red}
+
+/*Adding style to the first letter of each main article */
+.colourpsychologyarticle::first-letter{font-family:Niconne, cursive; font-size:200%}
+.colourandculturearticle::first-letter{font-family:Niconne, cursive; font-size:200%}
+.miasresponsearticle::first-letter{font-family:Niconne, cursive; font-size:200%}
+
+
+/*Citation list*/
+ol {
+    list-style-type: decimal;
+    margin-left: 60px;
+    font-family: 'National park';
+    font-size: 100%;
+}
+
+
