@@ -52,4 +52,14 @@ ol {
     font-size: 100%;
 }
 
+/*Quote*/
+.quote {
+  color:#D902CD;
+  margin-left: 50px;
+  font-family:Nicone, cursive; font-size:200%;
+}
 
+footer {
+  background-color: palevioletred;
+  text-align: center;
+}
