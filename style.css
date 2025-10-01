@@ -2,13 +2,59 @@
 :root { font-family: 'National Park', serif; 
 font-weight: 300;}
 
+
 /*This is a way I learned to add space to separate the paragraphs*/
 p {
   margin: 0 0 20px 0;  /* top right bottom left */
 }
+                                  /*Page 1 */
+/*Block One */
+.blockone{background-color:#3D2626;}
 
-/*Note for Mia: The code below means all "h1" headings will be in font Limelight, each h1 is separated into three sections, and each section or "title" has a different color*/
-h1{
+/*h1 style */
+h1 {
+  font-family:"Limelight", sans-serif;
+  font-size: 800%;
+  color:red;
+  text-align: center;
+}
+
+/*Title -> Colour style */
+.co{
+  color:#C710B1; 
+  font-size: 20rem; 
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lo{
+  color:#FFDC18;
+  font-size: 20rem;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ur{
+  color:#FF0000; 
+  font-size: 20rem;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*Title -> Psychology style */
+.psychology{
+  color:white; 
+  font-size: 11.5rem;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/*Note for Mia: The code below means all "h2" headings will be in font Limelight, each h2 is separated into three sections, and each section or "title" has a different color*/
+h2 {
     font-family: "Limelight", sans-serif;
     font-size:800%;
 }
@@ -19,29 +65,103 @@ h1{
         .sectionthree{color:purple}
 
 /*Author's name */
-.author {color:green; font-weight: bold; font-size: 150%;}
+.author {
+  color:#92C40B; 
+  font-weight: bold; 
+  font-size: 2rem;
+  padding-top: 10rem;
+  margin-left: 12rem;
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;}
 
-/*Coloured Titles */
+/*Text one */
+.textone{
+  color:white;
+  font-size: 4rem;
+  margin-left: 12rem;
+  margin-top: 11rem;
+  margin-bottom: 8rem;
+  line-height: 1.3;
+  width: 55rem;            
+  padding: 15px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word;} /* modern equivalent */
 
-.black{color:black; font-weight:bold; font-size: 130%}
-.white{color:grey; font-weight:bold; font-size: 130%}
-.yellow{color:#F2E718; font-weight:bold; font-size: 130%}
-.green{color:green; font-weight:bold; font-size: 130%}
-.blue{color:blue; font-weight:bold; font-size: 130%}
-.red{color:red; font-weight:bold; font-size: 130%}
+  /*Text Two */
+.texttwo {
+  font-size: 1.8rem;
+  color:#F1FF95;
+  margin-left: 60rem;
+  width: 40rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; /* modern equivalent */
+  position: relative;
+}
 
-/*Coloured Paragraphs */
-.paragraphblack{color:black}
-.paragraphwhite{color:grey}
-.paragraphyellow{color:#F2E718}
-.paragraphgreen{color:green}
-.paragraphblue{color:blue}
-.paragraphred{color:red}
+.texttwo::before {
+  content: "";
+  position: absolute;
+  left: -50rem;          /* pushes the line back to the far left */
+  top: 0;
+  bottom: 0;
+  width: 12px;           /* thickness of the line */
+  background-color: #F1FF95; /* line colour */
+}
+
+  /*Text Three */
+.textthree {
+  font-size: 1.8rem;
+  color:#F1FF95;
+  margin-left: 12rem;
+  width: 40rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; /* modern equivalent */
+}  
+
+/*Citation Box */
+.citation {
+  width: 100%;                 /* full-width background */
+  margin: 3rem 0;
+  padding: 2rem;             /* vertical spacing between text and box*/
+  background-color: #f5f5f5;
+  text-align: center;          /* center the list block */
+}
+
+.citation ol {
+  display: inline-block;       /* makes the list shrink to content */
+  text-align: left;            /* keep list items left-aligned inside */
+  margin: 0;
+  padding-left: 2 rem;          /* indentation for numbers */
+  max-width: 60rem;            /* keeps it readable */
+}
+
 
 /*Adding style to the first letter of each main article */
-.colourpsychologyarticle::first-letter{font-family:Niconne, cursive; font-size:200%}
-.colourandculturearticle::first-letter{font-family:Niconne, cursive; font-size:200%}
-.miasresponsearticle::first-letter{font-family:Niconne, cursive; font-size:200%}
+.colourpsychologyarticle::first-letter{
+  font-family: Homemade Apple, cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:200%;
+  line-height: 0;
+}
+
+.textfour::first-letter{
+  font-family: Homemade Apple, cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:200%;
+  line-height: 0;
+}
+.miasresponsearticle::first-letter{
+ font-family: Homemade Apple, cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:200%;
+  line-height: 0;
+}
 
 
 /*Citation list*/
@@ -52,14 +172,339 @@ ol {
     font-size: 100%;
 }
 
+
+                                    /*Page 2*/
+/*Block Two */
+.blocktwo{background-color:#FFFEEC;}
+
+
+/*Colour and Culture style */
+.and-culture {
+  display: block;   /* pushes "and culture" to the next line */
+}
+
+.colour {
+  color:#C710B1; 
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12rem;
+  margin-left: 20rem;
+}
+
+.and {
+  color:#000000; 
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.culture {
+  color:#CD5829; 
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12rem;
+}
+
+.and-culture {
+  margin-left: 35rem;
+}
+
+/*Text Four*/
+.textfour {
+  font-size: 1.8rem;
+  color:#000000;
+  margin: 3rem auto;
+  width: 86rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; /* modern equivalent */
+  position: relative;
+}
+
+/*Colours paragraphs*/
+.black {
+  color:#000000;
+  transform: rotate(90deg);
+  transform-origin: left top;
+  margin-left: 14rem;
+  margin-top:12rem;
+  font-size:9rem;
+  color:black;
+  font-family: "Anton", sans-serif; font-style: normal;
+  line-height: 1;
+}
+
+.paragraphblack{
+  font-size: 1.8rem;
+  color:#000000;
+  margin-left: 16rem;
+  margin-top: -10.5rem;
+  width: 62rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; /* modern equivalent */
+  position: relative;
+}
+/*-----------------------------------*/
+
+.white{
+  color: grey;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 550;
+  font-size: 6.5rem;
+  margin-left: 17rem;
+  margin-top: 8rem;
+}
+
+.paragraphwhite{
+  font-size: 1.8rem;
+  color:#000000;
+  margin-left: 17rem;
+  width: 57rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; 
+  position: relative;
+  color: grey;
+}
+/*-----------------------------------*/
+
+.yellow{
+  color:#FFDC18;
+  font-family: "Neonderthaw", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10rem;
+  margin-left: 35rem;
+  margin-top: 8rem;
+}
+
+.paragraphyellow{
+  font-size: 1.8rem;
+  color:#000000;
+  margin-left: 35rem;
+  width: 57rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; 
+  position: relative;
+  color:#FFDC18;
+}
+
+/*-----------------------------------*/
+
+.green{
+  color:#21881D;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10rem;
+  margin-left: 17rem;
+  margin-top: 8rem;
+}
+
+.paragraphgreen{
+  font-size: 1.8rem;
+  color:#21881D;
+  margin-left: 17rem;
+  width: 57rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; 
+  position: relative;
+}
+
+/*-----------------------------------*/
+
+.blue{
+  color:#3532DD;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 10rem;
+  margin-left: 6rem;
+  margin-top: 8rem;
+  letter-spacing: 1rem;
+}
+
+.paragraphblue{
+  font-size: 1.8rem;
+  color:#3532DD;
+  margin-left: 6rem;
+  width: 57rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; 
+  position: relative;
+}
+/*-----------------------------------*/
+.red{
+  color:#FF0000;
+  font-family: "Geologica", sans-serif;
+  font-weight: 800;
+  font-style:italic;
+  font-size: 20rem;
+  margin-top: 8rem;
+  text-align: center;
+  letter-spacing: 3rem;
+}
+
+.paragraphred{
+  font-size: 1.8rem;
+  color:#FF0000;
+  margin-inline: auto;
+  width: 55rem;            
+  padding: 10px;
+  padding-bottom: 5rem;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; 
+  position: relative;
+}
+
+/* Response Title */
+.responsetitle{
+  font-size: 15rem; 
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 6rem;
+  color:#C710B1;
+}
+.as-i {
+  display: block;   /* pushes "As I" to the next line */
+}
+
+.imagine {
+   display: block; 
+}
+
+/* First paragraph in Mia's response */
+
+  /*Text Two */
+.textfive {
+  font-size: 1.8rem;
+  color:#black;
+  margin-left: 60rem;
+  width: 90rem;            
+  padding: 10px;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; /* modern equivalent */
+  position: relative;
+}
+
+.textfive{
+  border-left: 12px solid black;
+  padding-left: 50rem;   /* space between bar and text */
+  margin-left: 6rem;
+  /* keep your other styles */
+}
+
 /*Quote*/
 .quote {
   color:#D902CD;
-  margin-left: 50px;
-  font-family:Nicone, cursive; font-size:200%;
+  margin-inline: auto;
+  font-family: "Inria Serif", serif; font-size: 3rem;
+  font-weight: 400;
+  font-style:italic;
+  width: 75rem;    
+  line-height: 3.8rem;        
+  padding-top: 13rem;
+  padding-bottom: 1.5rem;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; /* modern equivalent */
+  position: relative;
 }
 
+.quote::before,
+.quote::after {
+  position: absolute;
+  font-family: serif;
+  color: #D902CD;
+  z-index: 0;
+}
+
+.quote::before {
+  content: "“";
+  font-size: 11rem;
+  margin-top: 0.2rem;
+  margin-left: -6.5rem;
+}
+
+.quote::after {
+  content: "”";
+  font-size: 11rem;
+  bottom: -3rem;
+  right: -3.3rem;
+}
+
+.quoteauthor {
+  color:#D902CD;
+  margin-top: 3rem;
+  margin-left: 16rem;
+  font-family: "Inria Serif", serif; font-size: 3rem;
+  font-weight: 400;
+  font-style:italic;
+  width: 80rem; 
+}
+
+.textsix{
+  font-size: 1.8rem;
+  color:#000000;
+  margin-inline: auto;
+  width: 80rem;            
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  word-wrap: break-word;  /* allows wrapping mid-word if too long */
+  overflow-wrap: break-word; 
+  position: relative;
+
+}
+.question{
+  line-height: 6rem;
+  padding-bottom: 7rem;
+}
+.lineone{
+  font-size: 5rem;
+  margin-left: 13.5rem;
+}
+
+.linetwo{
+  font-size: 5rem;
+  margin-left: 13.5rem;
+}
+
+.linethree{
+  font-size: 5rem;
+  margin-left: 13.5rem;
+  padding: 2rem;
+  background-color: #F17D7D;
+  margin-inline-end: 51rem;
+}
+
+.linefour{
+  font-size: 5rem;
+  margin-left: 13.5rem;
+}
+
+.linefive{
+  font-size: 5rem;
+  margin-left: 13.5rem;
+  text-decoration: underline #F17D7D;
+  text-decoration-thickness: 6px;
+}
+
+.highlight{
+  color:#C710B1;
+  font-weight: bold;
+}
+
+/*Footer*/
 footer {
   background-color: palevioletred;
   text-align: center;
 }
+
+
