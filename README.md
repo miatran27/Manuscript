@@ -1,0 +1,5 @@
+# Notes and reflection about The Manuscript Project
+This project is an introduction to HTML and CSS, understanding how to structure a page layout, adding semantics and style to all elements on a web page. We started with picking a text of our choice, which I ended up picking "Colour and Culture" by Ruben Pater. After that, I wrote out a response to the text. Then, on the next step, I designed three different sketches of how I wanted to style the original text and my reading response. After this step, we then moved on to coding, putting all the texts together in HTML, then added a style sheet and started adding CSS elements. This has been a fun and very helpful way for me to understand HTML and just playing around wtih styling my texts, and layout design on a web page.
+Some things I want to remember:
+- Nesting elements in the HTML is very important, making sure I have a good structure semantically will help make things easier when adding in styles and building out CSS.
+- Comments are important to help me understand the code and for FUTURE me
