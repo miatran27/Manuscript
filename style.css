@@ -1,15 +1,33 @@
 /*This is the general front for the whole page */
-:root { font-family: 'National Park', serif; 
-font-weight: 300;}
+:root { font-family: Lusitana; 
+font-weight: 100;}
 
 
-/*This is a way I learned to add space to separate the paragraphs*/
-p {
-  margin: 0 0 20px 0;  /* top right bottom left */
-}
+
                                   /*Page 1 */
 /*Block One */
 .blockone{background-color:#3D2626;}
+
+/*Button styles */
+
+.buttongroup {
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 2rem;
+  color:#92C40B;
+  background-color: #FFFEEC;
+  font-weight: 400;
+}
+
+.miaresponse, .textlink {
+  transition: all 0.3s ease-in-out;
+}
+
+.miaresponse:hover, .textlink:hover {
+  color: red;
+}
 
 /*h1 style */
 h1 {
@@ -76,7 +94,7 @@ h2 {
   font-style: normal;}
 
 /*Text one */
-.textone{
+.textone {
   color:white;
   font-size: 4rem;
   margin-left: 12rem;
@@ -84,7 +102,7 @@ h2 {
   margin-bottom: 8rem;
   line-height: 1.3;
   width: 55rem;            
-  padding: 15px;
+  padding: 1rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word;} /* modern equivalent */
 
@@ -94,7 +112,7 @@ h2 {
   color:#F1FF95;
   margin-left: 60rem;
   width: 40rem;            
-  padding: 10px;
+  padding: 1rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; /* modern equivalent */
   position: relative;
@@ -103,22 +121,25 @@ h2 {
 .texttwo::before {
   content: "";
   position: absolute;
-  left: -50rem;          /* pushes the line back to the far left */
+  left: -48rem;          /* pushes the line back to the far left */
   top: 0;
   bottom: 0;
-  width: 12px;           /* thickness of the line */
+  width: 0.7rem;           /* thickness of the line */
   background-color: #F1FF95; /* line colour */
 }
 
   /*Text Three */
-.textthree {
+.textthree{
+  padding: 9rem 0rem 6rem 0;
+}
+.textthree p{
   font-size: 1.8rem;
   color:#F1FF95;
   margin-left: 12rem;
-  width: 40rem;            
-  padding: 10px;
+  margin-bottom: 2rem;
+  width: 45rem;            
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
-  overflow-wrap: break-word; /* modern equivalent */
+  overflow-wrap: break-word; 
 }  
 
 /*Citation Box */
@@ -167,7 +188,6 @@ h2 {
 /*Citation list*/
 ol {
     list-style-type: decimal;
-    margin-left: 60px;
     font-family: 'National park';
     font-size: 100%;
 }
@@ -218,7 +238,7 @@ ol {
   color:#000000;
   margin: 3rem auto;
   width: 86rem;            
-  padding: 10px;
+  padding: 2rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; /* modern equivalent */
   position: relative;
@@ -229,7 +249,7 @@ ol {
   color:#000000;
   transform: rotate(90deg);
   transform-origin: left top;
-  margin-left: 14rem;
+  margin-left: 20rem;
   margin-top:12rem;
   font-size:9rem;
   color:black;
@@ -240,10 +260,10 @@ ol {
 .paragraphblack{
   font-size: 1.8rem;
   color:#000000;
-  margin-left: 16rem;
+  margin-left: 21.5rem;
   margin-top: -10.5rem;
   width: 62rem;            
-  padding: 10px;
+  padding: 1rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; /* modern equivalent */
   position: relative;
@@ -255,16 +275,16 @@ ol {
   font-family: "Bodoni Moda", serif;
   font-weight: 550;
   font-size: 6.5rem;
-  margin-left: 17rem;
+  margin-left: 20rem;
   margin-top: 8rem;
 }
 
 .paragraphwhite{
   font-size: 1.8rem;
   color:#000000;
-  margin-left: 17rem;
-  width: 57rem;            
-  padding: 10px;
+  margin-left: 20rem;
+  width: 56rem;            
+  padding: 1rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; 
   position: relative;
@@ -278,16 +298,15 @@ ol {
   font-weight: 400;
   font-style: normal;
   font-size: 10rem;
-  margin-left: 35rem;
+  margin-left: 38rem;
   margin-top: 8rem;
 }
 
 .paragraphyellow{
   font-size: 1.8rem;
   color:#000000;
-  margin-left: 35rem;
-  width: 57rem;            
-  padding: 10px;
+  margin-left: 38rem;
+  width: 55rem;            
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; 
   position: relative;
@@ -302,16 +321,15 @@ ol {
   font-weight: 500;
   font-style: normal;
   font-size: 10rem;
-  margin-left: 17rem;
+  margin-left: 23rem;
   margin-top: 8rem;
 }
 
 .paragraphgreen{
   font-size: 1.8rem;
   color:#21881D;
-  margin-left: 17rem;
-  width: 57rem;            
-  padding: 10px;
+  margin-left: 23rem;
+  width: 59rem;            
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; 
   position: relative;
@@ -325,7 +343,7 @@ ol {
   font-weight: 500;
   font-style: normal;
   font-size: 10rem;
-  margin-left: 6rem;
+  margin-left: 8.5rem;
   margin-top: 8rem;
   letter-spacing: 1rem;
 }
@@ -333,9 +351,8 @@ ol {
 .paragraphblue{
   font-size: 1.8rem;
   color:#3532DD;
-  margin-left: 6rem;
-  width: 57rem;            
-  padding: 10px;
+  margin-left: 9rem;
+  width: 55rem;            
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; 
   position: relative;
@@ -356,8 +373,8 @@ ol {
   font-size: 1.8rem;
   color:#FF0000;
   margin-inline: auto;
-  width: 55rem;            
-  padding: 10px;
+  width: 52rem;            
+
   padding-bottom: 5rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; 
@@ -370,7 +387,8 @@ ol {
   font-family: "Inria Serif", serif;
   font-weight: 700;
   font-style: normal;
-  margin-left: 6rem;
+  margin-left: 11rem;
+  margin-bottom: 9rem;
   color:#C710B1;
 }
 .as-i {
@@ -383,23 +401,26 @@ ol {
 
 /* First paragraph in Mia's response */
 
-  /*Text Two */
+/*Text Five */
 .textfive {
   font-size: 1.8rem;
-  color:#black;
+  color:black;
   margin-left: 60rem;
-  width: 90rem;            
-  padding: 10px;
+  width: 40rem;            
+  padding: 1rem;
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; /* modern equivalent */
   position: relative;
 }
 
-.textfive{
-  border-left: 12px solid black;
-  padding-left: 50rem;   /* space between bar and text */
-  margin-left: 6rem;
-  /* keep your other styles */
+.textfive::before {
+  content: "";
+  position: absolute;
+  left: -48rem;          /* pushes the line back to the far left */
+  top: 0;
+  bottom: 0;
+  width: 0.7rem;           /* thickness of the line */
+  background-color: black; /* line colour */
 }
 
 /*Quote*/
@@ -449,7 +470,8 @@ ol {
   font-style:italic;
   width: 80rem; 
 }
-
+ 
+/* Text Six */
 .textsix{
   font-size: 1.8rem;
   color:#000000;
@@ -460,8 +482,13 @@ ol {
   word-wrap: break-word;  /* allows wrapping mid-word if too long */
   overflow-wrap: break-word; 
   position: relative;
-
 }
+
+/* Question section at the end */
+.textsix p {
+  margin-bottom: 2rem;
+}
+
 .question{
   line-height: 6rem;
   padding-bottom: 7rem;
@@ -493,7 +520,7 @@ ol {
   font-size: 5rem;
   margin-left: 13.5rem;
   text-decoration: underline #F17D7D;
-  text-decoration-thickness: 6px;
+  text-decoration-thickness: 0.4rem;
 }
 
 .highlight{
