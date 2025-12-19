@@ -343,30 +343,30 @@ h2 {
 
 blockquote {
 
-	font-weight: 500;
-	font-size: 1.15rem;
-	font-weight: 700;
-	margin-block-start: 3rem;
-	margin-block-end: 3rem;
-	margin-inline-start: 0vw;
+  font-weight: 500;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-block-start: 3rem;
+  margin-block-end: 3rem;
+  margin-inline-start: 0vw;
   margin-inline-end: 0vw;
-	padding-inline-start: 9vw;
-	width: 100%;
-	z-index: 0;
-	position: relative;
-	display: flow-root;
+  padding-inline-start: 9vw;
+  width: 100%;
+  z-index: 0;
+  position: relative;
+  display: flow-root;
 }
 
-	/* -----quote text style------*/
+  /* -----quote text style------*/
 
 blockquote .quote, .quoteauthor {
-	margin-inline-start: -1rem;
-	margin-block-start: 7rem;
-	line-height: 130%;
-	position: relative;
+  margin-inline-start: -1rem;
+  margin-block-start: 7rem;
+  line-height: 130%;
+  position: relative;
   color:#D902CD;
   font-family: "Inria Serif", serif; 
-	}
+  }
 
 .quote {
   font-size: 1.5rem;
@@ -378,29 +378,29 @@ blockquote .quote, .quoteauthor {
   font-size: 1.8rem;
   }
 
-    	/* quotation marks style */
+      /* quotation marks style */
 blockquote::before {
-	content: '“';
-	position: absolute;
-	top: -1.1rem;
-	left: -0.36rem;
-	font-style: normal;
-	color: #D902CD;
+  content: '“';
+  position: absolute;
+  top: -1.1rem;
+  left: -0.36rem;
+  font-style: normal;
+  color: #D902CD;
   font-size: 12rem;
   font-family: serif;
   margin-inline-start: 1rem;
-	}
+  }
 
 blockquote::after {
-	content: '”';
-	position: absolute;
-	bottom: -9rem;
-	right: -0.05rem;
-	font-style: normal;
-	font-size: 12rem;
-	color: #D902CD;
+  content: '”';
+  position: absolute;
+  bottom: -9rem;
+  right: -0.05rem;
+  font-style: normal;
+  font-size: 12rem;
+  color: #D902CD;
   font-family: serif;
-	}
+  }
 
 
 /* Text Six */
@@ -465,12 +465,12 @@ blockquote {
 }
 
   blockquote::before {
-	left: 1rem;
-	}
+  left: 1rem;
+  }
 
 blockquote::after {
-	right: 4rem;
-	}
+  right: 4rem;
+  }
 
   .buttongroup {
   gap:12rem;
@@ -493,12 +493,12 @@ blockquote {
 }
 
   blockquote::before {
-	left: 10rem;
-	}
+  left: 10rem;
+  }
 
 blockquote::after {
-	right: 12rem;
-	}
+  right: 12rem;
+  }
 
   .buttongroup {
   gap:40rem;
