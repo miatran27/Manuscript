@@ -477,6 +477,10 @@ blockquote::after {
 }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @media (min-width: 1080px) {
   .intro, .sectionone, .colourandculturearticle .textfour, .colourcontexts, .miasresponsearticle, blockquote, .textsix, .citation {
     padding-inline-start: 15rem;
